@@ -2386,10 +2386,15 @@ textarea.form-control, textarea.form-control:focus {
     justify-content: center;
 }
 
-.imagecpp
-{
-    width:100%;
-    height:100%;
+.imagecpp {
+    display: flex;
+    justify-content: center; /* Centers the icon horizontally */
+    margin-bottom: 10px; /* Adds some spacing below the icon */
+}
+
+.icons {
+    width: 100px; /* Adjust width as needed */
+    height: auto;
 }
 
 .project-description {
