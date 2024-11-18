@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\mywebsite\\kalebtaylor3.github.io\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mywebsite\\kalebtaylor3.github.io\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mywebsite\\kalebtaylor3.github.io\\ABattleForTheTop.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ABattleForTheTop.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mywebsite\\kalebtaylor3.github.io\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -13,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mywebsite\\kalebtaylor3.github.io\\BeyondDark.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BeyondDark.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mywebsite\\kalebtaylor3.github.io\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mywebsite\\kalebtaylor3.github.io\\contact_form\\contact_form.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "ABattleForTheTop.html",
+              "DocumentMoniker": "D:\\mywebsite\\kalebtaylor3.github.io\\ABattleForTheTop.html",
+              "RelativeDocumentMoniker": "ABattleForTheTop.html",
+              "ToolTip": "D:\\mywebsite\\kalebtaylor3.github.io\\ABattleForTheTop.html",
+              "RelativeToolTip": "ABattleForTheTop.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-17T22:53:56.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "portfolio-4.html",
               "DocumentMoniker": "D:\\mywebsite\\kalebtaylor3.github.io\\portfolio-4.html",
               "RelativeDocumentMoniker": "portfolio-4.html",
@@ -54,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "portfolio-3.html",
               "DocumentMoniker": "D:\\mywebsite\\kalebtaylor3.github.io\\portfolio-3.html",
               "RelativeDocumentMoniker": "portfolio-3.html",
@@ -66,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "portfolio-2.html",
               "DocumentMoniker": "D:\\mywebsite\\kalebtaylor3.github.io\\portfolio-2.html",
               "RelativeDocumentMoniker": "portfolio-2.html",
@@ -84,19 +101,20 @@
               "RelativeDocumentMoniker": "BeyondDark.html",
               "ToolTip": "D:\\mywebsite\\kalebtaylor3.github.io\\BeyondDark.html",
               "RelativeToolTip": "BeyondDark.html",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwEoAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAEoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2023-03-12T22:53:41.583Z"
+              "WhenOpened": "2023-03-12T22:53:41.583Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "main.css",
               "DocumentMoniker": "D:\\mywebsite\\kalebtaylor3.github.io\\css\\main.css",
               "RelativeDocumentMoniker": "css\\main.css",
               "ToolTip": "D:\\mywebsite\\kalebtaylor3.github.io\\css\\main.css",
               "RelativeToolTip": "css\\main.css",
-              "ViewState": "AgIAADsJAAAAAAAAAAAuwFQJAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABoJAAAAAAAAAAAuwFMJAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2023-03-12T04:00:03.028Z",
               "EditorCaption": ""
@@ -109,14 +127,14 @@
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "D:\\mywebsite\\kalebtaylor3.github.io\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AgIAAHICAAAAAAAAAAAtwI4CAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAEkDAAAAAAAAAAArwGcDAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2023-03-12T03:50:52.073Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "contact_form.php",
               "DocumentMoniker": "D:\\mywebsite\\kalebtaylor3.github.io\\contact_form\\contact_form.php",
               "RelativeDocumentMoniker": "contact_form\\contact_form.php",
