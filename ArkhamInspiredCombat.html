@@ -94,14 +94,17 @@
                             <h3>Project</h3>
                         </div>
                         <p class="text-justify">
-                            A Battle for the Top is a passion project my friends and I started working on after graduating from a game development program, with the goal of sharpening our skills and expanding our portfolios for the games industry. ABFTT is still very much in early development. Fresh off winning awards for our work on Beyond Dark, we poured our creativity and dedication into crafting this ambitious 3D action platformer, blending fast-paced gameplay with strategic card mechanics. It is a testament to our drive and talent as we embark on our professional journeys!
+                            This project recreates the iconic free-flow combat system from the Batman Arkham series inside Unreal Engine 5, built entirely in C++. My goal was to capture the cinematic feel of Rocksteady’s combat — fluid chaining between enemies, responsive counters, and AI that engages the player without overwhelming them. The system integrates smart enemy targeting, root-motion gap-closing, animation-driven hit windows, and group attack coordination, all while respecting player control and camera freedom. It serves as both a technical showcase and a gameplay experiment in translating AAA mechanics into a custom system from scratch.
                         </p>
                     </div>
                         <div class="tags-block">
                             <div class="block-title">
                                 <h3>My Work</h3>
                             </div>
-                            <p class="text-justify">As the sole programmer for A Battle for the Top, I implemented all gameplay systems, including the core platforming mechanics, card-based movement and combat, and dynamic boss AI with unique hazards for each zone. I developed and refined systems for deck management, card upgrades, and progression, ensuring smooth integration with platforming and combat. Additionally, I programmed features like shortcuts, environmental challenges, and multi-platform controls, while optimizing performance and balancing gameplay to provide a challenging yet rewarding experience. From zone-specific mechanics to UI and save systems, I was responsible for bringing every technical aspect of the game to life.</p>
+                            <p class="text-justify">
+                                As the sole developer, I designed and programmed the entire combat framework from the ground up in C++. I implemented a dynamic targeting and free-flow chaining system that automatically selects the most appropriate enemy and rotates the player into seamless follow-up attacks. Combat is fully animation-driven, with montages and notifies controlling hit windows, weapon collisions, damage values, and polished feedback such as hit-pause and camera shake to emphasize impact.
+                                I also built a counter and parry system, where enemy telegraphs open short input windows that branch into specialized counter animations, stuns, or disarms. On the AI side, I extended Behavior Trees with custom combat states and a lightweight group manager that coordinates enemy behavior—only allowing certain enemies to attack while others circle, feint, or recover—ensuring encounters remain cinematic and readable rather than chaotic.
+                            </p>
                         </div>
                         <!-- /Project Description -->
                         <!-- Technology -->

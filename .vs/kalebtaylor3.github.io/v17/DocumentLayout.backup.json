@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\mywebsite\\kalebtaylor3.github.io\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mywebsite\\kalebtaylor3.github.io\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mywebsite\\kalebtaylor3.github.io\\ArkhamInspiredCombat.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ArkhamInspiredCombat.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mywebsite\\kalebtaylor3.github.io\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mywebsite\\kalebtaylor3.github.io\\ABattleForTheTop.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -46,17 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ArkhamInspiredCombat.html",
               "DocumentMoniker": "D:\\mywebsite\\kalebtaylor3.github.io\\ArkhamInspiredCombat.html",
               "RelativeDocumentMoniker": "ArkhamInspiredCombat.html",
               "ToolTip": "D:\\mywebsite\\kalebtaylor3.github.io\\ArkhamInspiredCombat.html",
               "RelativeToolTip": "ArkhamInspiredCombat.html",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAjwGkAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-09-06T17:17:26.137Z",
               "EditorCaption": ""
@@ -135,13 +135,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "index.html",
               "DocumentMoniker": "D:\\mywebsite\\kalebtaylor3.github.io\\index.html",
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "D:\\mywebsite\\kalebtaylor3.github.io\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AgIAADIDAAAAAAAAAAAjwFADAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAADIDAAAAAAAAAAAjwFMDAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2023-03-12T03:50:52.073Z",
               "EditorCaption": ""
