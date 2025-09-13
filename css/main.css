@@ -1202,6 +1202,14 @@ textarea.form-control, textarea.form-control:focus {
   margin-bottom: 25px;
 }
 
+.block-title-github {
+    display: inline-block;
+    position: relative;
+    padding-right: 12px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
 .block-title h3 {
   position: relative;
   font-size: 21px;
@@ -3335,6 +3343,125 @@ blockquote {
 
 .fw-table table td:last-child {
   border-right: 0;
+}
+
+
+.github-section {
+    margin: 24px 0 10px;
+}
+
+.gh-top {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+/* Card shell that matches your dark theme */
+.gh-card {
+    background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 14px;
+    padding: 14px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+}
+
+.gh-card__head {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    letter-spacing: .2px;
+    opacity: .95;
+    margin-bottom: 10px;
+}
+
+    .gh-card__head svg {
+        opacity: .9;
+    }
+
+.gh-contrib .gh-chart {
+    display: block;
+    width: 100%;
+    max-width: 920px; /* keeps it from stretching too wide */
+    margin: 0 auto;
+    border-radius: 8px;
+    filter: saturate(1.1) contrast(1.02);
+}
+
+/* Subtitle spacing/weight */
+.github-subtitle {
+    margin: 16px 0 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    opacity: .9;
+}
+
+/* Grid for project cards */
+.repo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+}
+
+/* Repo card styling */
+.repo-card {
+    background: linear-gradient(180deg, rgba(15,15,18,.9), rgba(12,12,16,.8));
+    border: 1px solid rgba(122,162,255,.18);
+    border-radius: 14px;
+    padding: 14px 14px 12px;
+    transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease;
+}
+
+    .repo-card:hover {
+        transform: translateY(-2px);
+        border-color: rgba(122,162,255,.35);
+        box-shadow: 0 10px 24px rgba(0,0,0,.35);
+    }
+
+    .repo-card h3 {
+        margin: 0 0 6px;
+        font-size: 1.02rem;
+        line-height: 1.25;
+    }
+
+    .repo-card a {
+        color: #9bb7ff;
+        text-decoration: none;
+    }
+
+        .repo-card a:hover {
+            color: #bcd0ff;
+            text-decoration: underline;
+        }
+
+    .repo-card p {
+        margin: 0 0 10px;
+        color: #c7c9d1;
+        opacity: .9;
+        min-height: 40px; /* keeps rows even */
+    }
+
+.repo-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: .92rem;
+    color: #aeb3c2;
+    opacity: .95;
+}
+
+    .repo-meta span {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .repo-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 

@@ -2,7 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\contact_form",
-    "\\css"
+    "\\css",
+    "\\js"
   ],
+  "SelectedNode": "\\js\\githubContributions.js",
   "PreviewInSolutionExplorer": false
 }
