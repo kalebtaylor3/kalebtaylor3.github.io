@@ -126,7 +126,7 @@
                                 <li>Used clear enums and helper functions instead of burying logic in Blueprints, so behaviour is easy to trace and debug.</li>
                                 <li>Added input buffering so attack inputs during animations are stored and played at the next valid window, making combos feel responsive instead of spammy.</li>
                             </ul>
-
+                            <br>   
                             <h4>B. Stamina & Risk/Reward</h4>
                             <h5>Stamina & Resource System</h5>
                             <ul>
@@ -134,7 +134,7 @@
                                 <li>Tuned regen rules (e.g., faster out of combat, slower when attacking) to create a simple risk/reward loop.</li>
                                 <li>Exposed key values to data tables / Blueprint variables so designers (or future me) can tune balance without touching C++.</li>
                             </ul>
-
+                            <br>   
                             <h4>C. Lock-On & Camera Behaviour</h4>
                             <h5>Lock-On Targeting + Camera</h5>
                             <ul>
@@ -142,7 +142,7 @@
                                 <li>Rotates character movement relative to the locked target so strafing and circling feel natural.</li>
                                 <li>Added small touches like camera offset, slight FOV changes during attacks, and camera clamping to keep the action readable.</li>
                             </ul>
-
+                            <br>   
                             <h4>D. Animation Integration</h4>
                             <h5>Animation-Driven Combat</h5>
                             <ul>
@@ -150,7 +150,7 @@
                                 <li>Kept gameplay logic in C++ but drove timing from animation data, so designers can tweak attacks by editing animations instead of code.</li>
                                 <li>Set up a clean separation between movement animations (locomotion state machine) and combat montages so the character never "breaks" visually.</li>
                             </ul>
-
+                            <br>   
                             <h4>E. Enemy AI & Telegraphed Attacks</h4>
                             <h5>Enemy AI with Behaviour Trees</h5>
                             <ul>
@@ -158,7 +158,7 @@
                                 <li>Used Blackboard keys to store target location, distance bands (close/mid/far), and current attack choice.</li>
                                 <li>Designed animations and delays to telegraph attacks clearly, making it feel fair and learnable, like a Souls-style fight.</li>
                             </ul>
-
+                            <br>   
                             <h4>F. Game Feel & Polish</h4>
                             <h5>Game Feel Systems</h5>
                             <ul>
