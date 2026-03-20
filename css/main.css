@@ -1768,6 +1768,60 @@ textarea.form-control, textarea.form-control:focus {
 }
 /* --- End of Knowledges --- */
 
+/* --- Resume Highlights --- */
+.resume-highlights {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin: 0 0 10px;
+}
+
+.resume-highlight-item {
+  position: relative;
+  padding: 14px 18px 14px 44px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(230, 89, 89, 0.22);
+  border-radius: 12px;
+  color: #d8d8d8;
+  line-height: 1.55;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.12);
+}
+
+.resume-highlight-item:before {
+  content: '';
+  position: absolute;
+  left: 18px;
+  top: 20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #e65959;
+  box-shadow: 0 0 0 4px rgba(230, 89, 89, 0.16);
+}
+/* --- End Resume Highlights --- */
+
+.resume-side-column {
+  padding-top: 4px;
+}
+
+.resume-side-column .block-title {
+  margin-bottom: 22px;
+}
+
+.resume-certificates .certificate-item:last-child {
+  margin-bottom: 0;
+}
+
+.resume-certificates-spacer {
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  .resume-certificates-spacer {
+    height: 36px;
+  }
+}
+
 /* --- Certificates --- */
 .certificate-item {
   position: relative;

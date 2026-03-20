@@ -1,4 +1,4 @@
-<div id="ajax-page" class="ajax-page-content">
+﻿<div id="ajax-page" class="ajax-page-content">
     <div class="ajax-page-wrapper">
         <div class="ajax-page-nav">
             <div class="nav-item ajax-page-prev-next">
@@ -71,7 +71,7 @@
                     <ul class="project-general-info">
                         <li><p><i class="fa fa-user"></i> Kaleb Taylor</p></li>
                         <li><p><i class="fa fa-globe"></i> Role: Programmer</p></li>
-                        <li><p><i class="fa fa-calendar"></i> Release date: Never</p></li>
+                        <li><p><i class="fa fa-calendar"></i> Status: In Development</p></li>
                     </ul>
 
                     <div class="tags-block">
@@ -79,14 +79,14 @@
                             <h3>Project</h3>
                         </div>
                         <p class="text-justify">
-                            This project is a UE5 C++ procedural dungeon generator built to showcase production ready tools and clean presentation. The generator builds a logical grid plan first (seedable), then assembles a dungeon around designer placed anchors so level artists can steer the layout. A target biased grid walk creates the main path, random branches add variety, and an adjacency pass derives wall/opening masks so rooms connect cleanly. A "Cinematic Mode" stages a debug reveal (tiles, path line) before a final flash that spawns the 3D rooms. This System is theme ready.
+                            This project is a UE5 C++ procedural dungeon generator built as a systems and tooling showcase. The generator creates a seedable logical grid, respects designer-placed anchors, generates a main path with controlled randomness, and derives connection data so rooms assemble cleanly. It was designed to demonstrate data flow, deterministic generation, and production-ready presentation rather than just visual output.
                         </p>
                     </div>
                         <div class="tags-block">
                             <div class="block-title">
                                 <h3>My Work</h3>
                             </div>
-                            <p class="text-justify">I designed and implemented the entire system in C++: grid math, seed control, anchor-aware pathing (target-biased random walk + BFS connectors), branch generation, and per-tile data. I wrote the neighbor-derived opening logic (per-side collision gating) and a robust two-pass spawn that configures walls after all rooms exist, preventing flicker and ensuring no "boxed-in" starts-even with placed anchors. I added editor-tunable debug styling (outline/fill/line) and a Cinematic Mode pipeline to capture the reveal cleanly. Gameplay hooks include room triggers, ambient and wave enemy spawns with Niagara VFX, safe player spawn on the start tile, and Navmesh/AI-ready layouts. The architecture exposes archetype tags and decoration hooks, enabling designers to drop in art-ready modular rooms so the generator can assemble a fully realized dungeon from strategic pieces.</p>
+                            <p class="text-justify">I designed and implemented the full pipeline in C++: grid math, seed control, anchor-aware pathing, BFS-based connectors, branch generation, and per-tile metadata. I also built the neighbor-derived opening logic and a two-pass spawn process that configures rooms only after all dependencies exist, which prevents setup errors and keeps the generated layout consistent. On top of the core generation logic, I added debug visualization, presentation tooling, and clean extension hooks so the system can support future themes, archetypes, and designer-authored content without rewriting the core architecture.</p>
                         </div>
                         <!-- /Project Description -->
                         <!-- Technology -->
@@ -119,3 +119,4 @@
         </div>
     </div>
 </div>
+

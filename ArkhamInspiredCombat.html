@@ -1,4 +1,4 @@
-<div id="ajax-page" class="ajax-page-content">
+﻿<div id="ajax-page" class="ajax-page-content">
     <div class="ajax-page-wrapper">
         <div class="ajax-page-nav">
             <div class="nav-item ajax-page-prev-next">
@@ -86,7 +86,7 @@
                     <ul class="project-general-info">
                         <li><p><i class="fa fa-user"></i> Kaleb Taylor</p></li>
                         <li><p><i class="fa fa-globe"></i> Role: Sole Developer</p></li>
-                        <li><p><i class="fa fa-calendar"></i> Release date: Never</p></li>
+                        <li><p><i class="fa fa-calendar"></i> Status: Prototype</p></li>
                     </ul>
 
                     <div class="tags-block">
@@ -94,7 +94,7 @@
                             <h3>Project</h3>
                         </div>
                         <p class="text-justify">
-                            This project recreates the iconic free-flow combat system from the Batman Arkham series inside Unreal Engine 5, built entirely in C++. My goal was to capture the cinematic feel of Rocksteady's combat - fluid chaining between enemies, responsive counters, and AI that engages the player without overwhelming them. The system integrates smart enemy targeting, root-motion gap-closing, animation-driven hit windows, and group attack coordination, all while respecting player control and camera freedom. It serves as both a technical showcase and a gameplay experiment in translating AAA mechanics into a custom system from scratch. <br> <br> <em>All visual assets are licensed from the Fab Marketplace and Humble Bundle .</em>
+                            This project is a C++ combat framework built in Unreal Engine 5 to explore target selection, state coordination, timing-sensitive input, and multi-agent behaviour. While the presentation is inspired by the Arkham series, the real purpose of the project was to design and implement a clean technical system from scratch and prove out the architecture in a fast-paced real-time scenario. <br> <br> <em>All visual assets are licensed from the Fab Marketplace and Humble Bundle.</em>
 </p>
                     </div>
                         <div class="tags-block">
@@ -102,8 +102,8 @@
                                 <h3>My Work</h3>
                             </div>
                             <p class="text-justify">
-                                As the sole developer, I designed and programmed the entire combat framework from the ground up in C++. I implemented a dynamic targeting and free-flow chaining system that automatically selects the most appropriate enemy and rotates the player into seamless follow-up attacks. Combat is fully animation-driven, with montages and notifies controlling hit windows, weapon collisions, damage values, and polished feedback such as hit-pause and camera shake to emphasize impact.
-                                I also built a counter and parry system, where enemy telegraphs open short input windows that branch into specialized counter animations, stuns, or disarms. On the AI side, I extended Behavior Trees with custom combat states and a lightweight group manager that coordinates enemy behavior-only allowing certain enemies to attack while others circle, feint, or recover-ensuring encounters remain cinematic and readable rather than chaotic.
+                                As the sole developer, I designed and implemented the entire framework in C++. I built a targeting and chaining system that chooses the best follow-up target, rotates the player cleanly into the next action, and keeps combat readable under rapid state changes. Combat timing is animation-driven, with montages and notifies controlling hit windows, collisions, damage events, and feedback cues.
+                                I also implemented counter and parry flows with narrow timing windows, plus an AI coordination layer that uses Behaviour Trees and a lightweight group manager so multiple enemies can share the encounter without creating noise or inconsistent behaviour. The result is a good example of state management, event timing, and multi-actor coordination in a real-time system.
                             </p>
                         </div>
                         <!-- /Project Description -->
