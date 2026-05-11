@@ -22,7 +22,7 @@
 1. Fonts
 ------------------------------------------------------------ */
 /* Google fonts */
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,600,600i');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
 
 /* Linear Icons Font */
 @import url('./fonts/linear-icons-font/style.css');
@@ -3532,4 +3532,644 @@ blockquote {
 .half-bg {
 left: calc((50% + 380px) - 765px);
 }
+}
+
+/* =============================================================================
+Portfolio polish pass
+============================================================================= */
+.section-content,
+.ajax-page-content,
+.single-page-content {
+    background: #1f2024;
+}
+
+.page-title h2 {
+    letter-spacing: 0;
+}
+
+.page-title h4 {
+    color: #b7bac3;
+}
+
+.grid-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 28px;
+}
+
+.grid-filters li {
+    margin-right: 0;
+    opacity: 1;
+}
+
+.grid-filters li a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 34px;
+    padding: 7px 13px;
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 4px;
+    color: #d3d5dc;
+    background: rgba(255,255,255,0.035);
+}
+
+.grid-filters li.active a,
+.grid-filters li a:hover {
+    color: #fff;
+    border-color: rgba(230,89,89,0.65);
+    background: rgba(230,89,89,0.16);
+    text-decoration: none;
+}
+
+.portfolio-grid {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.portfolio-grid figure {
+    padding: 10px;
+}
+
+.portfolio-item-img {
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 6px;
+    background: #15161a;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.28);
+}
+
+.portfolio-grid figure .portfolio-item-img:after {
+    opacity: 1;
+    background: linear-gradient(180deg, rgba(0,0,0,0.06) 0%, rgba(0,0,0,0.28) 43%, rgba(0,0,0,0.86) 100%);
+}
+
+.portfolio-grid figure:hover .portfolio-item-img:after {
+    background: linear-gradient(180deg, rgba(230,89,89,0.10) 0%, rgba(0,0,0,0.36) 42%, rgba(0,0,0,0.9) 100%);
+}
+
+.portfolio-grid figure img {
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+}
+
+.portfolio-grid figure .name,
+.portfolio-grid figure .category {
+    opacity: 1;
+    transform: none;
+}
+
+.portfolio-grid figure .name {
+    left: 18px;
+    right: 18px;
+    bottom: 16px;
+    padding: 0;
+    font-size: 1.12em;
+    line-height: 1.2;
+    text-shadow: 0 2px 12px rgba(0,0,0,0.7);
+}
+
+.portfolio-grid figure .category {
+    top: 16px;
+    right: 16px;
+    max-width: calc(100% - 32px);
+    padding: 5px 8px;
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 3px;
+    background: rgba(17,18,22,0.78);
+    color: #f1f2f4;
+    font-size: 11px;
+    text-align: right;
+}
+
+.portfolio-grid figure:hover .name,
+.portfolio-grid figure:hover .category {
+    transition-delay: 0s;
+}
+
+.ajax-page-wrapper {
+    padding-top: 28px;
+}
+
+.ajax-page-title {
+    padding-bottom: 18px;
+}
+
+.ajax-page-title h1 {
+    font-size: 34px;
+    line-height: 1.15;
+}
+
+.project-description {
+    padding: 24px;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-left: 3px solid #e65959;
+    border-radius: 6px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.045), rgba(255,255,255,0.02));
+    box-shadow: 0 16px 32px rgba(0,0,0,0.22);
+}
+
+.project-general-info {
+    padding-bottom: 14px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.project-general-info li {
+    margin-bottom: 9px;
+}
+
+.tags-block {
+    margin-top: 22px;
+}
+
+.tags a {
+    padding: 5px 9px;
+    border: 1px solid rgba(255,255,255,0.09);
+    background: rgba(255,255,255,0.06);
+    color: #e5e7ec;
+}
+
+.portfolio-page-carousel,
+.portfolio-page-video,
+.portfolio-page-image {
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.1);
+    background: #15161a;
+    box-shadow: 0 16px 34px rgba(0,0,0,0.25);
+}
+
+.repo-card {
+    border-radius: 6px;
+    border-color: rgba(255,255,255,0.11);
+    background: linear-gradient(180deg, rgba(255,255,255,0.045), rgba(255,255,255,0.02));
+}
+
+@media only screen and (max-width: 680px) {
+    .portfolio-grid.two-columns figure,
+    .portfolio-grid.three-columns figure,
+    .portfolio-grid figure {
+        width: 100%;
+    }
+
+    .portfolio-grid figure .category {
+        position: static;
+        margin: 12px 16px 0 auto;
+        transform: none;
+    }
+
+    .portfolio-grid figure .name {
+        font-size: 1em;
+    }
+
+    .ajax-page-title h1 {
+        font-size: 28px;
+    }
+}
+
+/* =============================================================================
+Project detail page polish
+============================================================================= */
+.ajax-page-content {
+    background:
+        radial-gradient(circle at top left, rgba(230,89,89,0.10), transparent 34%),
+        linear-gradient(180deg, #202126 0%, #191a1f 100%);
+}
+
+.ajax-page-wrapper {
+    max-width: 1480px;
+    padding: 26px clamp(24px, 4vw, 64px) 56px;
+}
+
+.ajax-page-nav {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    padding: 0 0 18px;
+    background: linear-gradient(180deg, rgba(31,32,36,0.98), rgba(31,32,36,0));
+}
+
+.ajax-page-nav > div.nav-item {
+    margin: 0;
+}
+
+.ajax-page-nav > div.nav-item a {
+    width: 42px;
+    height: 42px;
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 6px;
+    background: rgba(255,255,255,0.06);
+    color: #e6e7eb;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.18);
+}
+
+.ajax-page-nav > div.nav-item a:hover {
+    border-color: rgba(230,89,89,0.7);
+    background: #e65959;
+    color: #fff;
+}
+
+.ajax-page-title {
+    position: relative;
+    padding: 6px 0 24px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.09);
+}
+
+.ajax-page-title:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 92px;
+    height: 2px;
+    background: #e65959;
+}
+
+.ajax-page-title h1 {
+    max-width: 980px;
+    font-size: clamp(30px, 4vw, 52px);
+    line-height: 1.05;
+    letter-spacing: 0;
+}
+
+.ajax-page-wrapper > .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.ajax-page-wrapper > .row > .portfolio-block {
+    padding-top: 22px;
+}
+
+.portfolio-page-carousel,
+.portfolio-page-video,
+.portfolio-page-image {
+    margin-bottom: 24px;
+}
+
+.portfolio-page-carousel .owl-stage-outer,
+.portfolio-page-carousel .owl-item,
+.portfolio-page-carousel .item {
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.portfolio-page-carousel .item img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    background: #111216;
+}
+
+.portfolio-page-carousel .owl-nav [class*="owl-"] {
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 6px;
+    background: rgba(16,17,21,0.82);
+    color: #fff;
+    line-height: 40px;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.25);
+}
+
+.portfolio-page-carousel .owl-nav [class*="owl-"]:hover {
+    background: #e65959;
+    border-color: #e65959;
+}
+
+.portfolio-page-carousel .owl-dots {
+    left: 12px;
+    right: auto;
+    bottom: 10px;
+    margin: 0;
+    padding: 4px 7px;
+    border-radius: 999px;
+    background: rgba(0,0,0,0.48);
+}
+
+.portfolio-page-carousel .owl-dots .owl-dot span {
+    width: 8px;
+    height: 8px;
+    margin: 4px;
+    border: 0;
+    background: rgba(255,255,255,0.42);
+}
+
+.portfolio-page-carousel .owl-dots .owl-dot.active span,
+.portfolio-page-carousel .owl-dots .owl-dot:hover span {
+    background: #e65959;
+}
+
+.project-description {
+    color: #d8dbe3;
+}
+
+.project-description > .block-title:first-child {
+    margin-bottom: 18px;
+}
+
+.project-description > .block-title:first-child h3 {
+    font-size: 20px;
+}
+
+.project-general-info {
+    display: grid;
+    gap: 9px;
+}
+
+.project-general-info li {
+    margin: 0;
+}
+
+.project-general-info p {
+    display: flex;
+    align-items: flex-start;
+    gap: 9px;
+    color: #e4e6eb;
+    line-height: 1.45;
+}
+
+.project-general-info .fa {
+    width: 18px;
+    margin: 3px 0 0;
+    text-align: center;
+}
+
+.project-general-info a {
+    color: #fff;
+    border-bottom: 1px solid rgba(230,89,89,0.7);
+}
+
+.project-general-info a:hover {
+    color: #ffb2b2;
+    text-decoration: none;
+}
+
+.project-description .tags-block {
+    padding-top: 20px;
+    margin-top: 22px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.project-description .tags-block:first-of-type {
+    border-top: 0;
+    padding-top: 0;
+}
+
+.project-description .block-title {
+    margin-bottom: 12px;
+}
+
+.ajax-page-wrapper .block-title h3 {
+    font-size: 17px;
+    color: #f2f3f5;
+}
+
+.project-description p,
+.project-description li {
+    color: #c9ccd5;
+}
+
+.project-description ul:not(.project-general-info):not(.tags) {
+    padding-left: 18px;
+    margin-top: 8px;
+}
+
+.project-description ul:not(.project-general-info):not(.tags) li {
+    margin-bottom: 10px;
+    line-height: 1.58;
+}
+
+.project-description h4 {
+    margin-top: 18px;
+    margin-bottom: 6px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.project-description h5 {
+    margin-top: 4px;
+    margin-bottom: 8px;
+    color: #b7bac3;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.project-description .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.project-description .tags > li {
+    display: inline-flex;
+}
+
+.project-description .tags a {
+    margin: 0;
+    border-radius: 999px;
+    font-size: 12px;
+    line-height: 1.25;
+}
+
+.project-description .share-buttons {
+    display: none;
+}
+
+@media only screen and (min-width: 992px) {
+    .ajax-page-wrapper > .row {
+        display: grid;
+        grid-template-columns: minmax(0, 1.7fr) minmax(320px, 0.8fr);
+        gap: 34px;
+    }
+
+    .ajax-page-wrapper > .row > .portfolio-block {
+        float: none;
+        width: auto;
+        max-width: none;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .project-description {
+        position: sticky;
+        top: 72px;
+        max-height: calc(100vh - 104px);
+        overflow: auto;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .ajax-page-wrapper {
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+
+    .ajax-page-nav {
+        padding-bottom: 14px;
+    }
+
+    .ajax-page-title h1 {
+        font-size: 32px;
+    }
+
+    .portfolio-page-carousel .item img {
+        aspect-ratio: 16 / 10;
+    }
+
+    .project-description {
+        margin-top: 4px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .ajax-page-wrapper {
+        padding: 18px 18px 42px;
+    }
+
+    .ajax-page-nav > div.nav-item a {
+        width: 38px;
+        height: 38px;
+    }
+
+    .ajax-page-nav > div.nav-item a i {
+        line-height: 38px;
+        font-size: 20px;
+    }
+
+    .ajax-page-title {
+        padding-bottom: 18px;
+    }
+
+    .ajax-page-title h1 {
+        font-size: 28px;
+    }
+
+    .project-description {
+        padding: 20px;
+    }
+}
+
+/* =============================================================================
+Typography polish pass
+============================================================================= */
+body,
+button,
+input,
+textarea,
+select,
+.btn-primary,
+.btn-secondary {
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.header-titles h2,
+.page-title h2,
+.ajax-page-title h1,
+.portfolio-grid figure .name {
+    font-family: 'Space Grotesk', 'Inter', Helvetica, Arial, sans-serif;
+    letter-spacing: 0;
+}
+
+body {
+    font-size: 15px;
+    line-height: 1.68;
+    font-weight: 400;
+}
+
+p,
+.project-description li,
+.resume-highlight-item,
+.timeline-second-style .right-part p {
+    line-height: 1.68;
+}
+
+.header-titles h2 {
+    font-weight: 700;
+}
+
+.header-titles h4,
+.home-text h4,
+.page-title h4,
+.repo-meta,
+.project-description h5 {
+    font-weight: 500;
+}
+
+.home-text h1,
+.page-title h2,
+.ajax-page-title h1 {
+    font-weight: 700;
+}
+
+.block-title h3,
+.ajax-page-wrapper .block-title h3 {
+    font-weight: 600;
+}
+
+.main-menu .link-text,
+.grid-filters li a,
+.tags a,
+.project-general-info p,
+.repo-card h3 {
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+}
+
+.portfolio-grid figure .category,
+.tags a,
+.grid-filters li a {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.portfolio-grid figure .name {
+    font-weight: 700;
+}
+
+/* =============================================================================
+Project overlay edge cleanup
+============================================================================= */
+.page-ajax-loaded {
+    background: #1f2024;
+}
+
+.ajax-page-content {
+    position: relative;
+    background: #1f2024;
+}
+
+.ajax-page-content:before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background:
+        radial-gradient(circle at 14% 0%, rgba(230,89,89,0.16), transparent 34%),
+        radial-gradient(circle at 86% 12%, rgba(255,255,255,0.045), transparent 30%),
+        linear-gradient(180deg, #202126 0%, #191a1f 100%);
+    z-index: 0;
+}
+
+.ajax-page-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.ajax-page-nav {
+    background: transparent;
+}
+
+.ajax-page-title {
+    background: transparent;
 }
