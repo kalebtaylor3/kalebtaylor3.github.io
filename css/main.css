@@ -4173,3 +4173,110 @@ Project overlay edge cleanup
 .ajax-page-title {
     background: transparent;
 }
+
+/* =============================================================================
+Mobile portfolio grid polish
+============================================================================= */
+@media only screen and (max-width: 768px) {
+    .portfolio-content {
+        margin-top: 4px;
+    }
+
+    .grid-filters {
+        gap: 8px;
+        margin-bottom: 22px;
+    }
+
+    .grid-filters li a {
+        min-height: 36px;
+        padding: 7px 11px;
+        font-size: 11px;
+    }
+
+    .portfolio-grid,
+    .portfolio-grid.two-columns,
+    .portfolio-grid.three-columns {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .portfolio-grid figure,
+    .portfolio-grid.two-columns figure,
+    .portfolio-grid.three-columns figure,
+    .portfolio-grid.four-columns figure,
+    .portfolio-grid.five-columns figure {
+        width: 100% !important;
+        float: none;
+        padding: 0;
+        margin-bottom: 16px;
+        overflow: hidden;
+        border: 1px solid rgba(255,255,255,0.10);
+        border-radius: 8px;
+        background: linear-gradient(180deg, rgba(255,255,255,0.045), rgba(255,255,255,0.02));
+        box-shadow: 0 12px 26px rgba(0,0,0,0.24);
+    }
+
+    .portfolio-item-img {
+        border: 0;
+        border-radius: 8px 8px 0 0;
+        box-shadow: none;
+    }
+
+    .portfolio-grid figure .portfolio-item-img:after {
+        opacity: 0;
+    }
+
+    .portfolio-grid figure:hover img {
+        transform: none;
+    }
+
+    .portfolio-grid figure img {
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+    }
+
+    .portfolio-grid figure .name,
+    .portfolio-grid figure .category {
+        position: static;
+        display: block;
+        opacity: 1;
+        transform: none;
+        transition-delay: 0s;
+        text-shadow: none;
+    }
+
+    .portfolio-grid figure .name {
+        padding: 14px 16px 4px;
+        color: #f3f4f6;
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    .portfolio-grid figure .category {
+        width: fit-content;
+        max-width: calc(100% - 32px);
+        margin: 0 16px 16px;
+        padding: 5px 9px;
+        border: 1px solid rgba(230,89,89,0.34);
+        border-radius: 999px;
+        background: rgba(230,89,89,0.13);
+        color: #f0d7d7;
+        font-size: 11px;
+        text-align: left;
+    }
+
+    .portfolio-grid figure a {
+        border-radius: 8px 8px 0 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .section-content {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+
+    .portfolio-grid figure .name {
+        font-size: 17px;
+    }
+}
